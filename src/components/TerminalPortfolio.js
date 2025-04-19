@@ -106,7 +106,7 @@ const TerminalPortfolio = () => {
               <TerminalPrompt command="whoami" />
             </h1>
             <p>
-              Hi, I'm <span className="text-blue">Alejandro Ochoa</span>, a builder of blockchain protocols and founder of Metal Seeds LLC. I'm passionate about decentralization, self-custody, and low-level systems. Currently leading <span className="text-pink">Pareme</span>, a custom proof-of-work blockchain written in Go.
+              Hello, I'm <span className="text-blue">Alejandro Ochoa</span>, a builder of blockchain protocols and founder of Metal Seeds LLC. I'm passionate about decentralization, self-custody, and low-level systems. Currently leading <span className="text-pink">Pareme</span>, a custom proof-of-work blockchain written in Go.
             </p>
 
             <h2 className="terminal-line" style={{ marginTop: '2rem' }}>

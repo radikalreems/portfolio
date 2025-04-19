@@ -7,18 +7,17 @@ const ProjectDetail = ({ projectId, onBack }) => {
     'pareme': {
       title: 'Pareme Blockchain',
       description: 'A Go-based proof-of-work blockchain supporting merge mining and peer networking',
-      longDescription: 'Pareme is a custom proof-of-work blockchain written in Go, designed with a focus on simplicity, security, and performance. The project implements a complete blockchain protocol with peer networking, transaction validation, and merge mining capabilities. It serves as a foundation for decentralized applications and demonstrates the principles of blockchain technology.',
+      longDescription: 'Pareme is a custom proof-of-work blockchain written in Go, designed with a focus on simplicity, security, and performance. The project implements a complete blockchain protocol with peer networking, file management, and merge mining capabilities. It serves as a foundation for decentralized applications and demonstrates the principles of blockchain technology.',
       image: '/portfolio/blockchain.png',
       technologies: ['Go', 'Blockchain', 'Proof-of-Work', 'Peer Networking', 'Cryptography'],
-      github: 'https://github.com/alejandroochoa/pareme',
-      demo: null,
+      github: 'https://github.com/radikalreems/pareme',
+      demo: 'https://pareme.org',
       features: [
         'Custom proof-of-work consensus mechanism',
-        'Peer-to-peer networking for node discovery',
-        'Transaction validation and block propagation',
-        'Merge mining support for enhanced security',
+        'Decentralized Peer-to-peer networking',
+        'Node communication tools include block propagation and peer discovery',
         'Efficient blockchain data structures',
-        'Command-line interface for node operation'
+        'Graphical-User-Interface for node operation'
       ]
     },
     'metal-seeds': {
@@ -28,14 +27,12 @@ const ProjectDetail = ({ projectId, onBack }) => {
       image: '/portfolio/metalseeds.png',
       technologies: ['CAD Design', 'Laser Etching', 'Hardware Manufacturing', 'Cryptocurrency Security', 'Self-Custody'],
       github: null,
-      demo: 'https://metalseeds.com',
+      demo: 'https://metalseeds.io',
       features: [
         'Custom CAD designs for optimal seed phrase storage',
         'High-precision laser etching for durability',
-        'Multiple metal options (titanium, stainless steel)',
-        'Tamper-evident packaging and verification',
-        'Comprehensive documentation and setup guides',
-        'Integration with popular wallet software'
+        'High quality metal (316 stainless steel)',
+        'Comprehensive documentation and setup guides'
       ]
     },
     'notary-site': {
@@ -44,15 +41,14 @@ const ProjectDetail = ({ projectId, onBack }) => {
       longDescription: 'This web application streamlines the process of scheduling notary services by connecting notaries with clients in need of document notarization. The system features an intuitive interface for booking appointments, managing schedules, and handling payments. Google Maps integration allows users to find nearby notaries and view their availability in real-time.',
       image: '/portfolio/notary.png',
       technologies: ['PHP', 'MySQL', 'JavaScript', 'Google Maps API', 'HTML/CSS', 'Bootstrap'],
-      github: 'https://github.com/alejandroochoa/notary-site',
-      demo: 'https://notary-scheduling.com',
+      github: null,
+      demo: 'https://ochoaservices.com/MobileNotary/',
       features: [
         'User-friendly appointment scheduling interface',
         'Real-time availability calendar',
         'Google Maps integration for location services',
         'Secure payment processing',
-        'Email and SMS notifications',
-        'Administrative dashboard for notaries'
+        'Email notifications'
       ]
     }
   };
@@ -86,7 +82,7 @@ const ProjectDetail = ({ projectId, onBack }) => {
             )}
             {project.demo && (
               <a href={project.demo} className="demo-link" target="_blank" rel="noopener noreferrer">
-                Live Demo
+                Live Website
               </a>
             )}
           </div>
