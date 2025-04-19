@@ -137,8 +137,10 @@ const TerminalPortfolio = () => {
             <h2 className="terminal-line" style={{ marginTop: '2rem' }}>
               <TerminalPrompt command="blog --recent" />
             </h2>
-            <p>▶ <a href="#" className="text-cyan">Building Pareme: Designing a Minimal Proof-of-Work Chain in Go</a></p>
-            <p>▶ <a href="#" className="text-cyan">From Notary to Founder: My Journey Into Crypto Infrastructure</a></p>
+            <p>▶ <a href="https://pareme.org/pareme-whitepaper.pdf" className="text-cyan">Pareme Whitepaper: The solution to the fragmented proof-of-work ecosystem</a></p>
+            <p>▶ <a href="https://metalseeds.io/intro-to-bitcoin/" className="text-cyan">Intro to Bitcoin: A quick crash course on Bitcoin</a></p>
+            <p>▶ <a href="https://metalseeds.io/metal-seed-phrase-plates/" className="text-cyan">Metal Seed Phrase Plates: An explaination on Seed Phrase Plates</a></p>
+            <p>▶ <a href="https://metalseeds.io/multi-signature-wallets/" className="text-cyan">Multi-Sig Wallets: An explaination on Multi-Sig wallets</a></p>
 
             <h2 className="terminal-line" style={{ marginTop: '2rem' }}>
               <TerminalPrompt command="show contact info" />
