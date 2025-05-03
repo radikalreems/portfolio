@@ -113,7 +113,7 @@ const TerminalPortfolio = () => {
               <TerminalPrompt command="list skills" />
             </h2>
             <p>
-              Go, Python, PHP, JavaScript, HTML, Blockchain, VPS Management, CAD Design, Compliance (BSA/AML/OFAC)
+              Go, Python, PHP, JavaScript, HTML, React, SQL, Blockchain, API integration, VPS Management, Cryptocurrency Payment Processing, Web Development, CAD Design, Compliance (BSA/AML/OFAC)
             </p>
 
             <h2 className="terminal-line" style={{ marginTop: '2rem' }}>
@@ -146,7 +146,7 @@ const TerminalPortfolio = () => {
               <TerminalPrompt command="show contact info" />
             </h2>
             <p>
-              Email me at <a href="mailto:alejandroochoa1107@gmail.com" className="text-cyan">alejandroochoa1107@gmail.com</a> or reach out on <a href="https://linkedin.com/in/alejandroochoa1107" className="text-cyan">LinkedIn</a>.
+              Email me at <a href="mailto:alejandropochoa@proton.me" className="text-cyan">alejandropochoa@proton.me</a> or reach out on <a href="https://linkedin.com/in/alejandroochoa1107" className="text-cyan">LinkedIn</a>.
             </p>
           </>
         )}
@@ -168,6 +168,22 @@ const TerminalPortfolio = () => {
                     <span>Go</span>
                     <span>Blockchain</span>
                     <span>Proof-of-Work</span>
+                  </div>
+                  <a href="#" className="project-link">View Details</a>
+                </div>
+              </div>
+
+              <div className="project-card" onClick={() => handleProjectClick('pareme-site')}>
+                <div className="project-image">
+                  <img src="/portfolio/blockchain.png" alt="Pareme Homepage" />
+                </div>
+                <div className="project-info">
+                  <h3>Pareme Homepage</h3>
+                  <p>A React-Vite front-end website for Pareme</p>
+                  <div className="project-tech">
+                    <span>React-Vite</span>
+                    <span>HTTPS API</span>
+                    <span>Backend Pareme Node Secured With SSL</span>
                   </div>
                   <a href="#" className="project-link">View Details</a>
                 </div>

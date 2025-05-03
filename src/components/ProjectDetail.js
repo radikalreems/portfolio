@@ -11,13 +11,26 @@ const ProjectDetail = ({ projectId, onBack }) => {
       image: '/portfolio/blockchain.png',
       technologies: ['Go', 'Blockchain', 'Proof-of-Work', 'Peer Networking', 'Cryptography'],
       github: 'https://github.com/radikalreems/pareme',
-      demo: 'https://pareme.org',
       features: [
         'Custom proof-of-work consensus mechanism',
         'Decentralized Peer-to-peer networking',
         'Node communication tools include block propagation and peer discovery',
         'Efficient blockchain data structures',
         'Graphical-User-Interface for node operation'
+      ]
+    },
+    'pareme-site': {
+      title: 'Pareme Website',
+      description: 'A React-Vite front-end website for Pareme',
+      longDescription: 'The homepage for Pareme. Supports a Pareme node as the backend for users to query the chain via HTTPS for hash frequencies.',
+      image: '/portfolio/blockchain.png',
+      technologies: ['React-Vite', 'HTTPS API', 'SSL Certification'],
+      github: 'https://github.com/radikalreems/pareme.org',
+      demo: 'https://pareme.org',
+      features: [
+        'A front-end website designed with React-Vite for the Pareme blockchain',
+        'A configured community forum for Pareme',
+        'A chain explorer utilizing a HTTPS API for on-chain hash frequency queries'
       ]
     },
     'metal-seeds': {
