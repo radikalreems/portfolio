@@ -125,6 +125,10 @@ const TerminalPortfolio = () => {
                 <a href="#" className="text-cyan" onClick={(e) => { e.preventDefault(); setActiveTab('projects'); handleProjectClick('pareme'); }}>View</a>]
               </li>
               <li>
+                <span className="text-yellow">pareme-site/</span> – A React-Vite front-end website for Pareme [
+                <a href="#" className="text-cyan" onClick={(e) => { e.preventDefault(); setActiveTab('projects'); handleProjectClick('pareme-site'); }}>View</a>]
+              </li>
+              <li>
                 <span className="text-yellow">metal-seeds/</span> – Metal-engraved seed plate startup built with CAD + laser etching for crypto self-custody [
                 <a href="#" className="text-cyan" onClick={(e) => { e.preventDefault(); setActiveTab('projects'); handleProjectClick('metal-seeds'); }}>View</a>]
               </li>
