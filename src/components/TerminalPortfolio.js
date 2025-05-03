@@ -179,7 +179,7 @@ const TerminalPortfolio = () => {
 
               <div className="project-card" onClick={() => handleProjectClick('pareme-site')}>
                 <div className="project-image">
-                  <img src="/portfolio/blockchain.png" alt="Pareme Homepage" />
+                  <img src="/portfolio/pareme-homepage.png" alt="Pareme Homepage" />
                 </div>
                 <div className="project-info">
                   <h3>Pareme Homepage</h3>
